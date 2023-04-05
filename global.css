@@ -1,0 +1,62 @@
+:root {
+  --blue: #5552a2;
+  --yellow: #fac536;
+  --grey: #f7f7ff;
+  --green: #0fb83c;
+  --font14: 0.75rem;
+  --font16: 1rem;
+  --font30: 2rem;
+  --font40: 2.5rem;
+  --font50: 3rem;
+}
+
+body {
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  font-size: var(--font14);
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.x-padding {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.y-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.isbgblue {
+  background-color: var(--blue);
+}
+
+.isbggrey {
+  background-color: var(--grey);
+}
+
+.isclrgreen {
+  color: var(--green);
+}

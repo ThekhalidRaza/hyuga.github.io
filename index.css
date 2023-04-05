@@ -1,0 +1,167 @@
+.offer p {
+  color: white;
+  font-weight: 500;
+}
+
+.logo {
+  width: 130px;
+  height: 34px;
+}
+
+ul li a {
+  font-weight: 600;
+  color: rgba(7, 0, 0, 0.61) !important ;
+  text-decoration: none;
+}
+
+h6 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+  color: rgb(78, 75, 75);
+}
+
+.category ul li {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 5px;
+}
+
+.category ul li:hover {
+  color: yellow !important;
+}
+
+.searchbar {
+  border: 1px solid black;
+  width: 350px;
+  padding: 5px 15px;
+}
+
+form input {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.isicon {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  color: var(--blue);
+}
+
+.isicon:hover {
+  color: var(--yellow);
+}
+
+.mobile-navbar {
+  display: none;
+}
+
+.main-banner {
+  overflow: hidden;
+}
+
+.responsive img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 15px !important ;
+}
+
+#health img {
+  width: 100%;
+}
+
+#offer img {
+  width: 100%;
+}
+
+#choose-card {
+  align-items: center;
+  height: 250px;
+}
+
+.font-xs {
+  font-size: var(--font14);
+  display: flex;
+  align-items: center;
+}
+
+#deals-card {
+  margin: 0 10px;
+  /* height: 500px; */
+}
+
+#deals-card p {
+  font-size: 1rem !important;
+}
+
+#deals-card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: none;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+footer {
+  color: white;
+}
+
+footer ul li {
+  line-height: 1.5rem;
+}
+
+.footer-sec ul li:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.payment-container {
+  width: 70px;
+  margin-right: 20px;
+}
+
+.payment-container img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* responsive */
+
+@media (max-width: 900px) {
+  html {
+    font-size: 90%;
+  }
+  .pc-nav {
+    display: none;
+  }
+
+  .mobile-navbar {
+    display: block;
+  }
+
+  .category {
+    display: none;
+  }
+  .x-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .x-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
